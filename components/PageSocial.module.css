@@ -100,6 +100,20 @@
   border-color: #c9510c;
 }
 
+.bilibili .actionBgPane {
+  background: #FB7299;
+}
+.bilibili:hover {
+  border-color: #FB7299;
+}
+
+.juejin .actionBgPane {
+  background: #1E80FF;
+}
+.juejin:hover {
+  border-color: #1E80FF;
+}
+
 .youtube .actionBgPane {
   background: #FF0000;
 }
