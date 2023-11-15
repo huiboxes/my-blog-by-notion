@@ -451,8 +451,12 @@
 
 "@react-icons/all-files@^4.1.0":
   version "4.1.0"
-  resolved "https://registry.npmjs.org/@react-icons/all-files/-/all-files-4.1.0.tgz"
+  resolved "https://registry.npmmirror.com/@react-icons/all-files/-/all-files-4.1.0.tgz#477284873a0821928224b6fc84c62d2534d6650b"
   integrity sha512-hxBI2UOuVaI3O/BhQfhtb4kcGn9ft12RWAFVMUeNjqqhLsHvFtzIkFaptBJpFDANTKoDfdVoHTKZDlwKCACbMQ==
+
+"@react-icons/all-files@https://github.com/react-icons/react-icons/releases/download/v4.12.0/react-icons-all-files-4.12.0.tgz":
+  version "4.12.0"
+  resolved "https://github.com/react-icons/react-icons/releases/download/v4.12.0/react-icons-all-files-4.12.0.tgz#82f242417dcf4f750fc66e57a177f7e99a72f31c"
 
 "@resvg/resvg-wasm@2.0.0-alpha.4":
   version "2.0.0-alpha.4"

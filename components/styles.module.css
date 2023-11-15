@@ -105,6 +105,14 @@
   color: #c9510c;
 }
 
+.juejin:hover {
+  color: #1E80FF;
+}
+
+.bilibili:hover {
+  color: #FB7299;
+}
+
 .youtube:hover {
   color: #ff0000;
 }

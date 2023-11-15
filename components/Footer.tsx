@@ -9,6 +9,8 @@ import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
+import { SiJuejin } from '@react-icons/all-files/si/SiJuejin'
+import { FaBilibili  } from '@react-icons/all-files/fa6/FaBilibili'
 
 import * as config from '@/lib/config'
 import { useDarkMode } from '@/lib/use-dark-mode'
@@ -89,13 +91,37 @@ export const FooterImpl: React.FC = () => {
 
         {config.github && (
           <a
-            className={styles.github}
-            href={`https://github.com/${config.github}`}
-            title={`GitHub @${config.github}`}
+          className={styles.github}
+          href={`https://github.com/${config.github}`}
+          title={`GitHub @${config.github}`}
+          target='_blank'
+          rel='noopener noreferrer'
+          >
+            <FaGithub />
+          </a>
+        )}
+
+        {config.juejin && (
+          <a
+            className={styles.juejin}
+            href={`https://juejin.cn/user/${config.juejin}`}
+            title={`Juejin @${config.juejin}`}
             target='_blank'
             rel='noopener noreferrer'
           >
-            <FaGithub />
+            <SiJuejin />
+          </a>
+        )}
+
+        {config.bilibili && (
+          <a
+            className={styles.bilibili}
+            href={`https://space.bilibili.com/${config.bilibili}`}
+            title={`Bilibili @${config.bilibili}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaBilibili />
           </a>
         )}
 

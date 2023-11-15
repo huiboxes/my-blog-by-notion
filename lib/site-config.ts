@@ -12,6 +12,8 @@ export interface SiteConfig {
 
   twitter?: string
   github?: string
+  juejin?: string
+  bilibili?: string
   linkedin?: string
   newsletter?: string
   youtube?: string
